@@ -1,0 +1,217 @@
+# Databricks notebook source
+# MAGIC %fs ls
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/myModel'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/FileStore/import-stage/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/FileStore/tables/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/tmp'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/tmp/hive/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/tmp/hive/root/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/user/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/user/hive/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/user/hive/warehouse/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/databricks-datasets/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/databricks-datasets/samples/'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/myModel'
+
+# COMMAND ----------
+
+# MAGIC %fs ls 'databricks-datasets'
+
+# COMMAND ----------
+
+dbutils.fs.refreshMounts()
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/mnt'
+
+# COMMAND ----------
+
+# MAGIC %fs mkdir('/mnt')
+
+# COMMAND ----------
+
+# MAGIC %fs ls
+
+# COMMAND ----------
+
+# MAGIC %fs mkdirs '/mnt'
+
+# COMMAND ----------
+
+# MAGIC %fs ls
+
+# COMMAND ----------
+
+# MAGIC %fs mkdirs '/mnt/epsilon-reviews'
+
+# COMMAND ----------
+
+# MAGIC %fs ls
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/mnt/'
+
+# COMMAND ----------
+
+# MAGIC %fs mounts
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/mnt/epsilon-reviews/pos'
+
+# COMMAND ----------
+
+# MAGIC %fs ls '/mnt/epsilon-reviews/pos'
+
+# COMMAND ----------
+
+# MAGIC %fs mkdirs 'tmp/reviews'
+
+# COMMAND ----------
+
+# MAGIC %fs mkdirs 'tmp/reviews/pos'
+
+# COMMAND ----------
+
+# MAGIC %fs mkdirs 'tmp/reviews/neg'
+
+# COMMAND ----------
+
+# MAGIC %fs ls 'tmp/reviews'
+
+# COMMAND ----------
+
+# MAGIC %fs cp -r '/mnt/epsilon-reviews/pos' 'tmp/reviews/pos'
+
+# COMMAND ----------
+
+# MAGIC %fs cp -r '/mnt/epsilon-reviews/neg' 'tmp/reviews/neg'
+
+# COMMAND ----------
+
+# MAGIC %fs ls 'tmp/reviews/pos'
+
+# COMMAND ----------
+
+# MAGIC %fs ls 'tmp/reviews/neg'
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
