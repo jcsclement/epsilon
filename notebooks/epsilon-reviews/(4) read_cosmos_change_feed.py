@@ -7,7 +7,7 @@
 # MAGIC import com.microsoft.azure.cosmosdb.spark.streaming._
 # MAGIC 
 # MAGIC val configMap = Map("Endpoint" -> "https://epsilon-cosmosdb.documents.azure.com:443/", 
-# MAGIC                     "Masterkey" -> "3DehiQXbgrwTUtNUKUS1WKb55KZvN7FTzENU9zvnG9ze7XQB4jI9x3poZYK4ZI8AHHird6RxYEomqx7gH4IQQA==",
+# MAGIC                     "Masterkey" -> "###",
 # MAGIC                     "Database" -> "OC", 
 # MAGIC                     "collection" -> "Messages", 
 # MAGIC                     "ChangeFeedCheckpointLocation" -> "checkpointlocation", 
