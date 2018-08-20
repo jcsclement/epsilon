@@ -12,7 +12,7 @@ import java.time.Instant
 
 
 // Setup EventHubs configurations
-val connectionString = "Endpoint=sb://epsilon-ingester.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=0avaFROCiITnOb1OekKiu2TUq56+YvvYgigSW6exPx0=;EntityPath=json-msgs-hub"
+val connectionString = "###"
 
 val ehConf = EventHubsConf(connectionString).setStartingPosition(EventPosition.fromEnqueuedTime(Instant.now))
 
