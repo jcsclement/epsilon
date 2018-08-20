@@ -13,8 +13,8 @@ import datetime
 # COMMAND ----------
 
 # set up connectivity to Cosmos DB
-uri = 'https://epsilon-cosmosdb.documents.azure.com:443/'
-key = '3DehiQXbgrwTUtNUKUS1WKb55KZvN7FTzENU9zvnG9ze7XQB4jI9x3poZYK4ZI8AHHird6RxYEomqx7gH4IQQA=='
+uri = '###'
+key = '###'
 client = document_client.DocumentClient(uri, {'masterKey': key})
 
 # COMMAND ----------
